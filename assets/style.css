@@ -1,0 +1,10 @@
+body {
+    font-size: 20px;
+    color:magenta;
+    font-weight:bold ;
+    background-color: black;
+}
+
+div {
+    height: 50px;
+}
