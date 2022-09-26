@@ -11,7 +11,7 @@ document.getElementById('data-attuale').innerHTML = `La data di oggi è ${dataAt
 // Mostrare elementi singoli della data
 document.getElementById('giorno').innerHTML = `Oggi è il giorno ${dataAttuale.getDate()}`
 
-document.getElementById('mese').innerHTML = `Oggi è il mese ${dataAttuale.toLocaleDateString('default', { month: 'long' })}`
+document.getElementById('mese').innerHTML = `Oggi è il mese di ${dataAttuale.toLocaleDateString('default', { month: 'long' })}`
 
 document.getElementById('anno').innerHTML = `Oggi è l'anno ${dataAttuale.getFullYear()}`
 
